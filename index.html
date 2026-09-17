@@ -96,18 +96,18 @@
 
     <!-- Put Chat Widget 1 Line Below -->
     <script type="text/javascript">
-    (function (w, d, x, id) {
-      s = d.createElement('script');
-      s.src = 'https://acacstudent7sep2026.my.connect.aws/connectwidget/static/amazon-connect-chat-interface-client.js';
-      s.async = 1;
-      s.id = id;
-      d.getElementsByTagName('head')[0].appendChild(s);
-      w[x] = w[x] || function () { (w[x].ac = w[x].ac || []).push(arguments) };
-    })(window, document, 'amazon_connect', '87896c01-d283-4d11-a716-6f8b8a56a397');
-    amazon_connect('styles', { iconType: 'CHAT', openChat: { color: '#ffffff', backgroundColor: '#34b0da' }, closeChat: { color: '#ffffff', backgroundColor: '#34acdf' } });
+    (function(w, d, x, id){
+        s = d.createElement('script');
+    s.src='https://acacstudent7sep2026.my.connect.aws/connectwidget/static/amazon-connect-chat-interface-client.js';
+    s.async=1;
+    s.id=id;
+    d.getElementsByTagName('head')[0].appendChild(s);
+    w[x] =  w[x] || function() {(w[x].ac = w[x].ac || []).push(arguments)};
+  })(window, document, 'amazon_connect', '87896c01-d283-4d11-a716-6f8b8a56a397');
+    amazon_connect('styles', {iconType: 'CHAT', openChat: {color: '#ffffff', backgroundColor: '#34b0da' }, closeChat: {color: '#ffffff', backgroundColor: '#34acdf'} });
     amazon_connect('snippetId', 'QVFJREFIaEpHUU50VXhqTTNoaVBSbzVPOVREOVh3LzI2M0R2QkptVytHQzNnclVnblFINXJreEZMcmtWWVkwdWo0Z1pPRncvQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNZkxjbXQ5SE0vVCtVYXVMTEFnRVFnQ3MyL0lKWWhpVDdBWGVUSkdPYmM5VE9iKzVhSGJwU1ppRVdmRDJtaWs5OFgvUU9sQXREWXZNSGQvL1c6OkRraVBRMlpyOGpGcGtaVlhrS2RDcHN3VlQ2MVhpcGJlZ1AyclhhTWFLWFp2VlVudEN2TlozeWFtSVpib0lHQWxWR0pmeTdpQXN5UGplMU9jNmdHQ1RsS2F2dkVVZVlTNVlqNGp6RGVqZ0dkQzlTQkgrbm11L0ZGeEN6V0pBbFMvNjVLZXFVUWxRWm9Zb0Z4b0ozSlY2WDNjenVPMEVDTT0=');
-    amazon_connect('supportedMessagingContentTypes', ['text/plain', 'text/markdown', 'application/vnd.amazonaws.connect.message.interactive', 'application/vnd.amazonaws.connect.message.interactive.response']);
-    </script>  
+    amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown', 'application/vnd.amazonaws.connect.message.interactive', 'application/vnd.amazonaws.connect.message.interactive.response' ]);
+    </script>    
     <!-- Chat Widget Above -->
   </body>
 </html>
